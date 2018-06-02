@@ -18,6 +18,8 @@ Released   : 20140228
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
     <link href="default.css" rel="stylesheet" type="text/css" media="all" />
     <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
 
@@ -26,11 +28,11 @@ Released   : 20140228
 </head>
 
 <body>
-    <div id="header-wrapper">
+    <div id="contactheader-wrapper">
         <div id="header" class="container">
             <div id="logo">
                 <h1>
-                    <a href="#">J.J. Power Writes</a>
+                    <a href="#">Contact Me</a>
                 </h1>
             </div>
             <div id="menu">
@@ -55,39 +57,89 @@ Released   : 20140228
         </div>
         <div id="banner" class="container">
             <div class="title">
-                <h2>Web Design</h2>
-                <span class="byline">Full-Stack Web Development Tailored to Your Needs </span>
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4"></label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPhone4"></label>
+                            <input type="text" class="form-control" id="inputPhone4" placeholder="Phone Number">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress"></label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Address">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputAddress2"></label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity"></label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="City">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputState"></label>
+                            <select id="inputState" class="form-control">
+                                <option selected>Choose...</option>
+                                <option>...</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="inputZip"></label>
+                            <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Please Enter Your Message Here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Sign in</button>
+                </form>
+                <!-- <form>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="First name">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Last name">
+                                    </div>
+                                </div>
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form> -->
             </div>
-            <ul class="actions">
+            <!-- <ul class="actions">
                 <li>
                     <a href="#" class="button">Let's Build It Together!</a>
                 </li>
-            </ul>
+            </ul> -->
         </div>
     </div>
-    <div id="wrapper">
-        <div id="three-column" class="container">
-            <div class="title">
-                <h2>Visualise Your Business Presence Online</h2>
-                <span class="byline">Creating is My Passion-Let Me Make Your Vision a Reality!</span>
-            </div>
-            <div class="boxA">
-                <span class="fa fa-cloud-download"></span>
-                <p>Color Schemes (Coming Soon)</p>
-                <a href="#" class="button button-alt">Enter</a>
-            </div>
-            <div class="boxB">
-                <span class="fa fa-cogs"></span>
-                <p>Terms and Services (Coming Soon)</p>
-                <a href="#" class="button button-alt">More Info</a>
-            </div>
-            <div class="boxC">
-                <span class="fa fa-wrench"></span>
-                <p>My Work Process (Coming Soon)</p>
-                <a href="#" class="button button-alt">More Info</a>
-            </div>
-        </div>
-    </div>
+
+    <!--Brand Statement Container-->
     <div id="welcome">
         <div class="container">
             <div class="title">
@@ -99,6 +151,7 @@ Released   : 20140228
                 to create a website that will fulfill your company's needs.
 
             </p>
+            <!--Portfolio Button-->
             <ul class="actions">
                 <li>
                     <a href="#" class="button">Portfolio</a>
@@ -106,6 +159,7 @@ Released   : 20140228
             </ul>
         </div>
     </div>
+    <!--Footer-->
     <div id="copyright" class="container">
         <p>&copy; JJ Power Writes. All rights reserved. | Photos by
             <a href="http://fotogrph.com/">Fotogrph, Public Domain and &copy;J.J.Power Writes</a> | Initial template by

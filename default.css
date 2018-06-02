@@ -172,7 +172,7 @@ ul.contact li a.icon-rss:before {
 }
 
 /*********************************************************************************/
-/* 4-column                                                                      */
+/* 4-column                                            */
 /*********************************************************************************/
 
 .box1,
@@ -214,7 +214,7 @@ ul.contact li a.icon-rss:before {
 }
 
 /*********************************************************************************/
-/* 2-column                                                                      */
+/* 2-column                                         */
 /*********************************************************************************/
 
 .tbox1,
@@ -264,28 +264,30 @@ ul.contact li a.icon-rss:before {
 #header-wrapper {
   position: relative;
   padding: 5em 0em 7em 0em;
-  background: #111111 url(images/header-bg.jpg) no-repeat center;
+  background: #111111 url(./assets/images/header-bg.jpg) no-repeat center;
   background-size: cover;
 }
 
 #portheader-wrapper {
   position: relative;
   padding: 5em 0em 7em 0em;
-  background: #111111 url(images/2464-keyboard-black-keys.jpg) no-repeat center;
+  background: #111111 url(./assets/images/2464-keyboard-black-keys.jpg)
+    no-repeat center;
   background-size: cover;
 }
 
 #contactheader-wrapper {
   position: relative;
   padding: 5em 0em 7em 0em;
-  background: #111111 url(images/trees-750x400.jpg) no-repeat center;
+  background: #111111 url(./assets/images/trees-750x400.jpg) no-repeat center;
   background-size: cover;
 }
 
 #aboutheader-wrapper {
   position: relative;
   padding: 5em 0em 7em 0em;
-  background: #111111 url(images/Jacinda_BW_Headshot3.jpg) no-repeat center;
+  background: #111111 url(./assets/images/Jacinda_BW_Headshot2.jpg) no-repeat
+    center;
   background-size: cover;
 }
 
@@ -306,7 +308,12 @@ ul.contact li a.icon-rss:before {
 
 #logo h1 {
   font-size: 2.6em;
-  color: #79c255;
+  color: rgba(255, 255, 255, 1);
+}
+
+#contactlogo h1 {
+  font-size: 2.8em;
+  color: rgba(255, 255, 255, 1);
 }
 
 #logo a {
@@ -320,7 +327,7 @@ ul.contact li a.icon-rss:before {
 
 #menu {
   position: absolute;
-  top: 4.5em;
+  top: 0.9em;
   right: 0;
 }
 
@@ -336,11 +343,11 @@ ul.contact li a.icon-rss:before {
 
 #menu li a,
 #menu li span {
-  padding: 1em 1.5em;
+  padding: 1em 0.8em;
   letter-spacing: 1px;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.8em;
+  font-size: 0.9em;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -349,13 +356,13 @@ ul.contact li a.icon-rss:before {
 #menu li.active span {
 }
 
-#menu .active a {
+#menu. active a {
   border: 2px solid rgba(255, 255, 255, 1);
   border-radius: 6px;
   color: rgba(255, 255, 255, 1);
 }
 
-#menu .icon {
+#menu. icon {
 }
 
 /*********************************************************************************/
